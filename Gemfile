@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+#rails 12 factor: Makes running your Rails app easier. 
+gem 'rails_12factor', group: :production
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.4'
 
