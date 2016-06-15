@@ -8,6 +8,10 @@ gem 'sprockets', '2.11.0'
 
 gem 'sass-rails'
 
+#pagination - kaminari
+
+gem 'kaminari'
+
 #rails 12 factor: Makes running your Rails app easier. 
 gem 'rails_12factor', group: :production
 
