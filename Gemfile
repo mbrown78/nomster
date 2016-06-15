@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+#simple_form 
+gem 'simple_form'
+
 #include bootstrap
 
 gem 'bootstrap-sass', '~> 3.3.5.1'
