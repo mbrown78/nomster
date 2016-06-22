@@ -24,6 +24,12 @@ class PlacesController < ApplicationController
       redirect_to root_path
     end  
     
+    def destroy
+      @place = Place.find(params[:id])
+      @place.destry
+      redirect_to root_path
+    end  
+    
     def create
     current_user.places.create(place_params)
     redirect_to root_path
