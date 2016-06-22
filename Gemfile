@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+#geocoder for coordinates
+gem "geocoder", "1.3.4"
+
 #devise gem for user authentification 
 gem 'devise', '>= 3.2.4'
 
