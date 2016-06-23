@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+#figaro for reading API key
+gem "figaro", ">= 1.0.0"
+
 #geocoder for coordinates
 gem "geocoder", "1.3.4"
 
