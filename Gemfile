@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+#turbolinks
+gem 'turbolinks'
+
 #figaro for reading API key
 gem "figaro", ">= 1.0.0"
 
