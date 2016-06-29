@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+#carrierwave for photo uploads
+gem 'carrierwave'
+
 #turbolinks
 gem 'turbolinks'
 
