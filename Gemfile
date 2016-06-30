@@ -1,4 +1,6 @@
 source 'https://rubygems.org'
+# fog gem for photos
+gem "fog"
 
 #carrierwave for photo uploads
 gem 'carrierwave'
