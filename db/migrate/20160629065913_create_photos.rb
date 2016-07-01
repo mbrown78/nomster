@@ -7,6 +7,8 @@ class CreatePhotos < ActiveRecord::Migration
       t.integer :place_id
 
       t.timestamps
+      
+      t.string :picture
     end
       
       add_index :photos, :place_id
