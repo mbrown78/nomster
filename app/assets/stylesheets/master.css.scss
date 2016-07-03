@@ -29,7 +29,12 @@ h2, h3, h4, h5, h6 {
   padding:10px;
 }
 
+.btn-primary {
+   
+    background-color: #54EBBD;
+    border-color: #54EBBD;
 
+}
 
 body {
   background:url('/assets/cream_dust.png');
@@ -139,34 +144,44 @@ blockquote p {
 }
 
 /* pagination****/
+.pagination a, .pagination span.current, .pagination span.gap {
+	float: left;
+	padding: 0 14px;
+	line-height: 38px;
+	text-decoration: none;
+	background-color: white;
+	border: 1px solid #DDD;
+	border-left-width: 0;
+	font-family: 'Quattrocento Sans', sans-serif;
+}
+
+
 .pagination {
-  font-family: 'dosismedium', serif;
-  font-size: 15px;
-  background: #fff;
-  border-radius: 2px;
-  text-align: center;
-  padding: 1em;
-  cursor: default; }
-  .pagination a, .pagination span {
-    padding: 0.2em 0.3em; }
-  .pagination .disabled {
-    color: #aaaaaa; }
-  .pagination .current {
-    font-style: normal;
-    font-weight: bold;
-    background-color: #bebebe;
-    display: inline-block;
-    width: 1.4em;
-    height: 1.4em;
-    line-height: 1.5;
-    -moz-border-radius: 1em;
-    -webkit-border-radius: 1em;
-    border-radius: 1em;
-    text-shadow: rgba(255, 255, 255, 0.8) 1px 1px 1px; }
-  .pagination a {
-    text-decoration: none;
-    color: black; }
-    .pagination a:hover, .pagination a:focus {
-      color: #48C9C8; 
-      
-    }
+	border-left: 1px solid #ddd;
+	margin:0 auto;
+	.first{
+		padding : 0;
+		float: none;
+		border: none;
+	}
+	.prev {
+		padding : 0;
+		float: none;
+		border: none;
+	}
+	.page{
+		padding : 0;
+		float: none;
+		border: none;
+	}
+	.next{
+		padding : 0;
+		float: none;
+		border: none;
+	}
+	.last{
+		padding : 0;
+		float: none;
+		border: none;
+	}
+}
