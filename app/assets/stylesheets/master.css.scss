@@ -1,8 +1,19 @@
+@import url(https://fonts.googleapis.com/css?family=Quattrocento|Quattrocento+Sans);
+
 
 h1, h2, h3, h4, h5, h6 {
   margin:0;
   padding:0;
 }
+
+h1 {
+  font-family: 'Quattrocento', serif;
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: 'Quattrocento Sans', sans-serif;
+}
+
 
 
 .booyah-box {
@@ -50,11 +61,10 @@ a {
 
 .navbar-inverse .navbar-nav > li > a {
    right: 0;
+   font-family: 'Quattrocento Sans', sans-serif;
 }
 
-.ul.nav.navbar-nav{
-  float:right;
-}
+
 
 .navbar-inverse .navbar-brand {
   color: #54EBBD;
@@ -69,6 +79,8 @@ a {
   border-radius: 3px;
   padding:8px;
 }
+
+
 /*--------google maps show page-----------*/
 
  #map {
@@ -155,4 +167,6 @@ blockquote p {
     text-decoration: none;
     color: black; }
     .pagination a:hover, .pagination a:focus {
-      color: #48C9C8; }
+      color: #48C9C8; 
+      
+    }
