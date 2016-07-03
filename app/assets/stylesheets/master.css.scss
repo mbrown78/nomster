@@ -82,8 +82,18 @@ blockquote p {
 
 /*--------- carousel----------*/
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
-    height: 550px;
+    height: 650px;
     width: 100%;
+}
+
+.carousel-control.left, .carousel-control.right{
+  background-image: none;
+}
+
+.carousel{
+  position: center;
+  padding-left:200px;
+  padding-right:200px;
 }
 
 .carousel-caption {
@@ -94,10 +104,6 @@ blockquote p {
     width:100%;
     position:absolute;
     left:0;
-}
-
-.carousel {
-  box-shadow: 0px 3px 8px #2a2a2a;
 }
 
 /* pagination****/
