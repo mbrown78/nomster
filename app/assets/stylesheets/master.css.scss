@@ -123,22 +123,42 @@ blockquote p {
 }
 
 /*--------- carousel----------*/
+
+.carousel .item {
+    width: 100%; /*slider width*/
+    max-height: 550px; /*slider height*/
+}
+.carousel .item img {
+    width: 100%; /*img width*/
+}
+/*full width container*/
+@media (max-width: 767px) {
+    .block {
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+}
+/*
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
     height: 650px;
     width: 100%;
 }
 
 .carousel-control.left, .carousel-control.right{
-  background-image: none;
+  background-image: -webkit-linear-gradient(left, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.0001) 100%);
+  background-image: -o-linear-gradient(left, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.0001) 100%);
+  background-image: linear-gradient(to right, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.0001) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
 }
 
 .carousel{
   position: center;
-  padding-left:200px;
-  padding-right:200px;
+  height:100%;
+  width:100%;
 }
 
-.carousel-caption {
+
+/*.carousel-caption {
     font-family: 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 60px;
     font-weight:100;
@@ -146,8 +166,13 @@ blockquote p {
     width:100%;
     position:absolute;
     left:0;
-}
+}*/
 
+/*
+.img.img-responsive {
+  width: 1423px;
+  height: 515px;
+}  */
 /* pagination****/
 .pagination a, .pagination span.current, .pagination span.gap {
 	float: left;
