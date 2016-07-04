@@ -45,13 +45,6 @@
 
 <div class="clear"></div>
 
-          
-<!-- Button trigger comment modal -->
-
-  
-<button class="btn btn-primary btn-lg pull-right" data-toggle="modal" data-target="#myModal">
-  Add a comment
-</button>
 
   <!-- Modal For comments -->
    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -75,7 +68,8 @@
         </div>
       </div>
    </div> 
-   
+
+<div class="clear"></div>   
    <!--  Comments  -->
     <h1>Comments</h1>
     <% @place.comments.each do |comment| %>
@@ -89,21 +83,36 @@
       </blockquote>
     </div>
     <% end %>
+    
 
-<!-- Photos  -->
+<div class="clear"></div>    
+    <!-- Button trigger comment modal -->
 
- 
- <!-- Button trigger photo modal -->
-<button class="btn btn-primary btn-lg pull-right" data-toggle="modal" data-target="#myPhotoModal">
-  Upload a photo
+<button class="btn btn-primary btn-lg pull-right" data-toggle="modal" data-target="#myModal">
+  Add a comment
 </button>
 
+<div class="clear"></div>
+
+<!-- Photos  -->
+<div class="clear"></div>
+ 
 <h1>Photos</h1>
 <br />
 <% @place.photos.each do |photo| %>
   <%= image_tag photo.picture, :class => "thumbnail" %>
   <% photo.caption %>
 <% end %>
+
+<div class="clear"></div>
+ 
+ <!-- Button trigger photo modal -->
+<button class="btn btn-primary btn-lg pull-right" data-toggle="modal" data-target="#myPhotoModal">
+  Upload a photo
+</button>
+
+<div class="clear"></div>
+ 
 
 <!-- Photo Modal -->
 
